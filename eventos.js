@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
     const divElement = document.getElementById("miDiv");
     
-    divElement.addEventListener("click", function () {
+    divElement.addEventListener("click", () => {
         alert("Hola! Soy el div");
     });
 });
